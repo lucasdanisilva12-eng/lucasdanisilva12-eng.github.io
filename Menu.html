@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<nav>
+       
+    
+        <a href="Menu.html"> Menu </a>
+        <a href="contato.html"> contato </a>
+
+
+</nav>
+    <title>Cafeteria Dev - Cardápio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #ffffff;
+            color: #1b2842;
+        }
+
+        header {
+            background: #253768;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .categoria {
+            margin-bottom: 40px;
+        }
+
+        .categoria h2 {
+            border-bottom: 3px solid #6f4e37;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            color: #223764;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px dashed #bbb;
+        }
+
+        .item span {
+            font-weight: bold;
+            color: #314374;
+        }
+
+        footer {
+            text-align: center;
+            background: #020c18;
+            color: rgb(45, 78, 116);
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .item {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>☕ Cafeteria Dev</h1>
+    <p>Cardápio</p>
+</header>
+
+<div class="container">
+
+    <section class="categoria">
+        <h2>Cafés</h2>
+
+        <div class="item">
+            <div>
+                <strong>Espresso</strong><br>
+                Café intenso e aromático.
+            </div>
+            <span>R$ 8,00</span>
+        </div>
+
+        <div class="item">
+            <div>
+                <strong>Cappuccino</strong><br>
+                Espresso, leite vaporizado e espuma.
+            </div>
+            <span>R$ 14,00</span>
+        </div>
+
+        <div class="item">
+            <div>
+                <strong>Latte</strong><br>
+                Café com bastante leite vaporizado.
+            </div>
+            <span>R$ 15,00</span>
+        </div>
+
+        <div class="item">
+            <div>
+                <strong>Mocha</strong><br>
+                Café, chocolate e chantilly.
+            </div>
+            <span>R$ 18,00</span>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>Doces</h2>
+
+        <div class="item">
+            <div>
+                <strong>Brownie</strong><br>
+                Servido com calda de chocolate.
+            </div>
+            <span>R$ 12,00</span>
+        </div>
+
+        <div class="item">
+            <div>
+                <strong>Cheesecake</strong><br>
+                Cobertura de frutas vermelhas.
+            </div>
+            <span>R$ 16,00</span>
+        </div>
+
+        <div class="item">
+            <div>
+                <strong>Croissant Doce</strong><br>
+                Recheio de chocolate ou doce de leite.
+            </div>
+            <span>R$ 13,00</span>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>Salgados</h2>
+
+        <div class="item">
+            <div>
+                <strong>Pão de Queijo</strong><br>
+                Quentinho e crocante.
+            </div>
+            <span>R$ 7,00</span>
+        </div>
+
+        <div class="item">
+            <div>
+                <strong>Sanduíche Natural</strong><br>
+                Frango, alface e tomate.
+            </div>
+            <span>R$ 18,00</span>
+        </div>
+
+        <div class="item">
+            <div>
+                <strong>Quiche</strong><br>
+                Sabores de queijo ou alho-poró.
+            </div>
+            <span>R$ 17,00</span>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>Bebidas Geladas</h2>
+
+        <div class="item">
+            <div>
+                <strong>Frappé de Café</strong><br>
+                Café gelado batido com gelo.
+            </div>
+            <span>R$ 20,00</span>
+        </div>
+
+        <div class="item">
+            <div>
+                <strong>Suco Natural</strong><br>
+                Laranja, limão ou maracujá.
+            </div>
+            <span>R$ 12,00</span>
+        </div>
+
+        <div class="item">
+            <div>
+                <strong>Chá Gelado</strong><br>
+                Limão ou pêssego.
+            </div>
+            <span>R$ 10,00</span>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 Cafeteria Dev • Aberto todos os dias das 8h às 20h
+</footer>
+
+</body>
+</html>
