@@ -1,0 +1,39 @@
+header {
+    padding: 15px;
+    color: white;
+    background-color: rgba(29, 43, 61, 0.904);
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+body {
+    margin: 0px
+}
+ 
+main{
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0, 1);
+
+}
+
+img {
+    border-radius: 15px;
+}
+
+a{
+    color: rgb(235, 86, 0);
+}
+footer{
+    padding: 10px;
+    color: white;
+    background-color: rgba(29, 43, 61, 0.904);
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
